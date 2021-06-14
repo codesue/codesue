@@ -1,6 +1,6 @@
-### Hi there 👋
+### Hi, I’m Sue 👋
 
-I'm a software engineer who builds tools that empower people to do their best work. I'm part of the ML Platform group in [Twitter Cortex](https://cortex.twitter.com/). We build infrastructure that enables engineers at Twitter to efficiently apply machine learning to their unique problems. In my free time, I enjoy studying linguistics and hacking on technology that makes learning languages fun and approachable.
+I’m a software engineer at Twitter working on ML pipeline infrastructure. I’m passionate about second language acquisition, and I enjoy building tools that make it easier for people to learn new languages.
 
 <!--
 **codesue/codesue** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
