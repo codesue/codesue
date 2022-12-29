@@ -2,22 +2,30 @@
 
 alias blog="open https://codesue.com"
 eval $(thefuck --alias oops)
+alias gb="git branch"
+alias gs="git status"
+alias gd="git diff"
+
+# TITLE
+
+autoload -U add-zsh-hook
+
+set-window-title() {
+  # this looks like `directory`
+  window_title="\e]0;${PWD##*/}\a"
+  echo -ne "$window_title"
+}
+
+PR_TITLEBAR=''
+set-window-title
+add-zsh-hook precmd set-window-title
 
 # USER PROMPT
 
 setopt PROMPT_SUBST
 
-# enable git prompt
-#
-# installation:
-#  1) mkdir -p ~/.zsh/plugins/git
-#  2) curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.zsh/plugins/git/git-prompt.sh
-#  3) review git-prompt.sh for setting options
-#  4) source and use in user prompt
-source ~/.zsh/plugins/git/git-prompt.sh
-
-# this looks like `directory (branch) >`
-PS1="%1~% $(__git_ps1 ' (%s)') %B%F{green}>%f%b "
+# this looks like `directory > `
+PS1="%1~%  %B%F{green}>%f%b "
 
 # AUTOCOMPLETION
 
