@@ -1,0 +1,12 @@
+/* Recommended extensions for a workspace */
+{
+  "recommendations": [
+    "catppuccin.catppuccin-vsc",
+    "streetsidesoftware.code-spell-checker",
+    "formulahendry.auto-rename-tag",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.live-server",
+    "ms-python.python",
+    "mechatroner.rainbow-csv"
+  ]
+}

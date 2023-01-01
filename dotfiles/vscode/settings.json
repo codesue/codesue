@@ -1,0 +1,51 @@
+/* Custom settings for a user or workspace */
+{
+  // Color Theme
+  "window.autoDetectColorScheme": true,
+  "window.autoDetectHighContrast": false,
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
+  // Editor
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "trailing",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  // Files
+  "files.insertFinalNewline": true,
+  // JavaScript Preferences
+  "eslint.alwaysShowStatus": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  // Python Preferences
+  // NOTE: install Python libraries with pipx (https://pypa.github.io/pipx)
+  //  analysis
+  "python.analysis.typeCheckingMode": "basic",
+  //  formatting
+  "python.formatting.provider": "yapf",
+  "python.formatting.yapfPath": "${env:HOME}/.local/bin/yapf",
+  "python.formatting.yapfArgs": [
+    "--style='{based_on_style: pep8, indent_width: 2}'"
+  ],
+  //  linting
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  //      bandit
+  "python.linting.banditEnabled": true,
+  "python.linting.banditPath": "${env:HOME}/.local/bin/bandit",
+  //      mypy
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyPath": "${env:HOME}/.local/bin/mypy",
+  //      pylint
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "${env:HOME}/.local/bin/pylint",
+  "python.linting.pylintArgs": [
+    "--indent-string='  '"
+  ]
+}
