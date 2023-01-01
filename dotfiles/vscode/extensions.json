@@ -7,6 +7,8 @@
     "dbaeumer.vscode-eslint",
     "ms-vscode.live-server",
     "ms-python.python",
-    "mechatroner.rainbow-csv"
+    "mechatroner.rainbow-csv",
+    "eamodio.gitlens",
+    "ms-azuretools.vscode-docker"
   ]
 }
