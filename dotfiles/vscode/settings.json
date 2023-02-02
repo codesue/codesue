@@ -3,7 +3,7 @@
   // Color Theme
   "window.autoDetectColorScheme": true,
   "window.autoDetectHighContrast": false,
-  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.colorTheme": "Catppuccin Latte",
   "workbench.preferredLightColorTheme": "Catppuccin Latte",
   "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
   // Editor
@@ -15,14 +15,32 @@
   "editor.renderWhitespace": "trailing",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": true,
+    "source.fixAll": true
   },
   // Files
   "files.insertFinalNewline": true,
+  // Spell checking
+  "cSpell.language": "en,sv",
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.customDictionaries": {
+    "word-up": {
+      "name": "custom",
+      "path": "~/.config/cspell/custom_dictionary.txt",
+      "scope": "user",
+      "addWords": true
+    }
+  },
   // JavaScript Preferences
   "eslint.alwaysShowStatus": true,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
   // Python Preferences
   // NOTE: install Python libraries with pipx (https://pypa.github.io/pipx)
   //  analysis
