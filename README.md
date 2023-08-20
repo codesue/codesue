@@ -10,8 +10,6 @@ I write about what I'm learning and building on [codesue.com](https://codesue.co
 #### Latest Projects
 
 - 🍃 [walt](https://github.com/codesue/walt): A minimal documentation theme based on writ.css
-- 🧑‍💻 [blog](https://github.com/codesue/blog): The source code for codesue.com,
-built with Eleventy
 - 📝 [kelly](https://codesue.com/posts/kelly): The Swedish Kelly list as a Hugging
 Face dataset
 - 🫠 [dystopedia](https://codesue.com/posts/dystopedia/): Make any Wikipedia topic
