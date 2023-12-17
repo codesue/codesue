@@ -1,14 +1,14 @@
 ### Hi, I'm Sue 👋
 
 I’m a machine learning engineer, open source contributor, and language learning
-enthusiast. I sometimes build tiny projects as active learning exercises. Most
-of my projects are available on [GitHub](https://github.com/codesue). Some are
-also on the [🤗 Hub](https://huggingface.co/codesue).
+enthusiast. I sometimes build tiny projects as active learning exercises. Some
+of my projects are available on [GitHub](https://github.com/codesue).
 
 I write about what I'm learning and building on [codesue.com](https://codesue.com).
 
 #### Latest Projects
 
+- 🌑 [io](https://github.com/codesue/io): A mini Python REPL web component
 - 🍃 [walt](https://github.com/codesue/walt): A minimal documentation theme based on writ.css
 - 📝 [kelly](https://codesue.com/posts/kelly): The Swedish Kelly list as a Hugging
 Face dataset
