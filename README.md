@@ -2,7 +2,7 @@
 
 I’m a machine learning engineer, open source contributor, and language learning
 enthusiast. I sometimes build tiny projects as active learning exercises. Some
-of my projects are available on [GitHub](https://github.com/codesue).
+of my projects are available right here on GitHub.
 
 I write about what I'm learning and building on [codesue.com](https://codesue.com).
 
